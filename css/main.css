@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  width: 100%;
+}
+
+.navbar {
+  background: pink;
+  color: white;
+}
+.navbar .container {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.navbar .container .logo {
+  font-size: 2.8em;
+  font-weight: 600;
+}
+.navbar .container nav ul {
+  display: flex;
+}
+.navbar .container nav ul li {
+  margin-left: 2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  width: 100%;
+  background: lightpink;
+}
+
+.navbar {
+  background: pink;
+  color: white;
+  height: 60px;
+}
+.navbar .container {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.navbar .container .logo {
+  font-size: 2.2em;
+  font-weight: 600;
+  margin-right: 2.5em;
+}
+.navbar .container .logo span {
+  color: brown;
+}
+.navbar .container nav ul {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+}
+.navbar .container nav ul li {
+  list-style: none;
+  position: relative;
+}
+.navbar .container nav ul li a {
+  margin-left: 2em;
+  text-decoration: none;
+}
+.navbar .container nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  right: 0;
+  bottom: -7px;
+  height: 3px;
+  width: 0;
+  background: green;
+  transition: 0.2s;
+}
+.navbar .container nav ul li a:hover::after {
+  width: 80%;
+}
+.navbar .container nav ul button {
+  margin-left: 2em;
+  background: brown;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  border-color: none;
+}
+.navbar .container nav .hamburger {
+  display: none;
+  cursor: pointer;
+}
+.navbar .container nav .hamburger span .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.hero {
+  background: lightpink;
+  color: white;
+}
+.hero .container {
+  display: flex;
+  margin: 0 9em;
+  justify-content: center;
+}
+.hero .container .hero-image > img {
+  height: 600px;
+  width: 700px;
+}
+.hero .container .hero-text {
+  padding: 6em 0;
+  margin-left: 1em;
+  align-items: center;
+  color: white;
+}
+.hero .container .hero-text h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0.3em 0;
+}
+.hero .container .hero-text h5 {
+  font-size: 1.2em;
+}
+.hero .container .hero-text .input-box {
+  margin: 0.3em 0;
+}
+.hero .container .hero-text .input-box input {
+  position: relative;
+  height: 35px;
+  border-radius: 0.4em;
+  letter-spacing: 3px;
+  padding-left: 7px;
+  font-size: 0.7em;
+  border-color: 2px solid brown;
+  outline: none;
+  width: 100%;
+}
+.hero .container .hero-text .input-box button {
+  position: absolute;
+  padding: 0.5em 1em;
+  margin-left: 0.3em;
+  border-radius: 0.5em;
+  background: brown;
+  color: white;
+  cursor: pointer;
+}
+
+.about {
+  padding: 3em 0;
+  justify-content: center;
+  background: lightpink;
+}
+.about .container {
+  display: flex;
+  margin: 0 12em;
+}
+.about .container .order-1 {
+  order: 2;
+}
+.about .container .order-1 > img {
+  border-radius: 0.6em;
+  height: 600px;
+  width: 700px;
+}
+.about .container .order-2 {
+  order: 1;
+}
+.about .container .order-2 .works {
+  margin-right: 1em;
+  padding: 6em 0;
+}
+.about .container .order-2 .works h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+.about .container .order-2 .works span {
+  padding: 0.5em;
+  font-size: 1.4em;
+  color: brown;
+}
+.about .container .order-2 .works button {
+  padding: 0.5em 1em;
+  margin: 1em 0.3em;
+  border-radius: 0.5em;
+  background: brown;
+  color: white;
+  cursor: pointer;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+section .container {
+  display: flex;
+  justify-content: center;
+}
+section .container .little-container {
+  flex-basis: 300px;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.6em;
+  background: rgb(187, 185, 185);
+}
+section .container .little-container button {
+  padding: 0.5em 1em;
+  margin: 1em 0.3em;
+  border-radius: 0.5em;
+  background: brown;
+  color: white;
+  cursor: pointer;
+}
+
+.projects {
+  text-align: center;
+  background: brown;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.projects .container h3 {
+  padding: 1.2em 0.3em 0 0;
+  font-size: 1.2em;
+  justify-content: center;
+}
+.projects button {
+  padding: 0.5em 1em;
+  margin: 0.3em;
+  border-radius: 0.5em;
+  background: brown;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding-top: 3em;
+}
+footer .social-media > img {
+  margin: 0.5em;
+  height: 35px;
+  width: 35px;
+  border-radius: 0.6em;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar nav span .bar {
+    display: block;
+  }
+  .hero {
+    flex-wrap: wrap;
+  }
+  .hero .container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .hero .container .hero-image {
+    margin-right: 1.5em;
+  }
+  .hero .container .hero-image > img {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+  }
+  .hero .container .hero-text {
+    position: relative;
+    margin-right: 1.5em;
+  }
+  .hero .container .hero-text .input-box {
+    font-size: 1.2em;
+  }
+  .hero .container .hero-text .input-box button {
+    position: relative;
+    bottom: -5px;
+  }
+  section.about .container {
+    display: block;
+    margin: 0;
+    justify-content: center;
+  }
+  section.about .container .order-1 {
+    justify-content: center;
+    text-align: center;
+  }
+  section.about .container .order-1 > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 0.6em;
+  }
+  section.about .container .order-2 .works {
+    text-align: center;
+    padding: 0.5em 2em;
+  }
+  section.Services {
+    padding: 0.5em;
+    margin: 0;
+  }
+  section.Services h1 {
+    padding: 0;
+    margin: 0;
+  }
+  section.Services .container {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
